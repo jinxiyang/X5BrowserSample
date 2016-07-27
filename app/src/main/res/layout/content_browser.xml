@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_browser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yang.x5browsersample.BrowserActivity"
+    tools:showIn="@layout/activity_browser">
+
+    <FrameLayout
+        android:id="@+id/webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/content_browser"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:progress="0"
+        android:max="100"
+        />
+</android.support.constraint.ConstraintLayout>
