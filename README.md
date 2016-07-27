@@ -1,0 +1,2 @@
+# X5BrowserSample
+基于腾讯X5WebView实现的浏览器模板activity
